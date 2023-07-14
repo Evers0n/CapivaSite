@@ -6,7 +6,7 @@
     --cor-secundaria:#F6F6F6;
     --cor-terciaria: #ffffff;
     --cor-quarta:#ca927c;
-    --cor-hover: #272727;
+    --cor-hover: #1e555f;
 
     --font-principal: 'Krona One', sans-serif;
     --font-secundaria: 'Poppins', sans-serif;
@@ -46,14 +46,26 @@ h2
 
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
-    color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
     text-decoration: none;
+    border-style: hidden;
+    transition: all 0.3s;
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
 }
 
-a{font-size: larger;}
-
+.cabecalho__menu__link:hover{
+    transform: translateY(-10px);
+    background-color:var(--cor-hover);
+}
 
 .apresentacao__conteudo__titulo{
     font-size: 2.25rem;
@@ -112,7 +124,7 @@ a{font-size: larger;}
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
-.apresentacao__links__link{
+.links_redirect{
     /* background-color: #22D4FD; */
     display: flex;
     justify-content: center;
@@ -127,11 +139,13 @@ a{font-size: larger;}
     text-decoration: none;
     color: #F6F6F6;
     font-family: var(--font-secundaria);
+    transition: all 0.3s;
 }
 
 
-.apresentacao__links__link:hover{
+.links_redirect:hover{
     background-color:var(--cor-hover);
+    transform: translateY(-10px);
 }
 
 .apresentacao__imagem{
@@ -148,7 +162,7 @@ a{font-size: larger;}
     background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
-    font-family: var(--font-secundaria);
+    font-family: var(--cor-quarta);
     font-size: 24px;
     font-weight: 400;
 }
@@ -167,4 +181,40 @@ a{font-size: larger;}
     .apresentacao__conteudo{
         width: auto;
     }
+}
+
+.animate{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animate--infinite{
+    animation-iteration-count: infinite;
+}
+
+.animate--delay{
+    animation-delay: 1s;
+}
+
+.animate--fast{
+    animation-duration: 0.6s;
+}
+
+.animate--slow{
+    animation-duration: 3s;
+}
+
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.slideInLeft {
+    animation-name: slideInLeft;
+    animation-timing-function: ease-in; 
 }
