@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+Onne&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet');
 
 :root{
     --cor-primaria:#faacac;
@@ -8,7 +9,7 @@
     --cor-hover: #272727;
 
     --font-principal: 'Krona One', sans-serif;
-    --font-secundaria: 'Montserrat', sans-serif;
+    --font-secundaria: 'Poppins', sans-serif;
 }
 
 
@@ -18,7 +19,6 @@
 }
 
 body{
-    
     box-sizing: border-box;
     background-color: var( --cor-primaria);
     color: var(--cor-secundaria);
@@ -27,8 +27,13 @@ body{
     padding: 2% 0% 0% 15%;
 }
 .cabecalho__menu{
+    
+    height: 100%;
     display: flex;
     gap: 80px;
+    align-items: center;
+    position: relative;
+    z-index: index;
 }
 
 h2
@@ -47,6 +52,9 @@ h2
     text-decoration: none;
 }
 
+a{font-size: larger;}
+
+
 .apresentacao__conteudo__titulo{
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
@@ -56,7 +64,7 @@ h2
 }
 
 .apresentacao{
-    padding: 5% 15%;
+    padding: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
