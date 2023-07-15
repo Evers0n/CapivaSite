@@ -66,12 +66,12 @@ h1{
     left: 0;
     background: linear-gradient(-45deg, --cor-hover, --cor-terciaria);
     position: absolute;
-    /* transition: 0.05; */
+    
 }
 
 .capivasite a:hover:after{
     top: 0;
     transform: translateY(-10px);
-
+    transition: 0.05;
 }
   
