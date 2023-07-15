@@ -37,7 +37,9 @@ h1{
 
 .capivasite{
     display: flex;
+    transition: all 0.3s;
 }
+
 
  .capivasite a{
     width: 80px;
@@ -64,10 +66,12 @@ h1{
     left: 0;
     background: linear-gradient(-45deg, --cor-hover, --cor-terciaria);
     position: absolute;
-    transition: 0.05;
+    /* transition: 0.05; */
 }
 
 .capivasite a:hover:after{
     top: 0;
+    transform: translateY(-10px);
+
 }
   
