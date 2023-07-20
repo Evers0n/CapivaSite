@@ -28,8 +28,10 @@ body{
 
 .background_image div{
     background-image: url(../assets/backgroundImg.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .cabecalho{
