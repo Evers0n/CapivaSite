@@ -8,8 +8,10 @@
     --cor-quarta:#ca927c;
     --cor-hover: #1e555f;
 
-    --font-principal: 'Krona One', sans-serif;
-    --font-secundaria: 'Poppins', sans-serif;
+    --font-principal:
+    'Krona One', sans-serif;
+    --font-secundaria:
+    'Poppins', sans-serif;
 }
 
 
@@ -21,8 +23,15 @@
 body{
     box-sizing: border-box;
     background-color: var( --cor-primaria);
-    color: var(--cor-secundaria);
+    /* color: var(--cor-secundaria); */
 }
+
+.background_image div{
+    background-image: url(../assets/backgroundImg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .cabecalho{
     padding: 2% 0% 0% 15%;
 }
@@ -221,3 +230,6 @@ h2
     animation-name: slideInLeft;
     animation-timing-function: ease-in; 
 }
+
+
+
