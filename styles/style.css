@@ -23,8 +23,31 @@
 body{
     box-sizing: border-box;
     background-color: var( --cor-primaria);
-    /* color: var(--cor-secundaria); */
+    color: var(--cor-secundaria);
 }
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+      width: 100%;
+      height: auto;
+    }
+}
+
+@media(max-aspect-ratio:16/9){
+    .back-video{
+      width: auto;
+      height: 100%;
+    }
+}
+
+
 
 .background_image div{
     background-image: url(../assets/backgroundImg.jpg);
