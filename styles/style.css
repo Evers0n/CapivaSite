@@ -111,7 +111,7 @@ h2
 
 .apresentacao__conteudo__titulo{
     font-size: 50px;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--font-secundaria);
 }
 .titulo-destaque{
     color: var(--cor-terciaria);
@@ -123,6 +123,13 @@ h2
     align-items: center;
     justify-content: center;
     gap: 68px;
+}
+
+.titulo-destaque{
+    font-size: x-large;
+    font-family:var(--font-secundaria);
+    padding: 0px;
+    
 }
 
 .apresentacao__conteudo{
@@ -166,7 +173,7 @@ h2
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+    font-family: var(--font-secundaria);
 }
 .links_redirect{
     /* background-color: #22D4FD; */
