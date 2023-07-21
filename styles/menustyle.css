@@ -8,11 +8,9 @@
 {
   display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
-  
+  top: 18px;
+  left: 22px;
   z-index: 1;
-  
   -webkit-user-select: none;
   user-select: none;
 }
@@ -34,17 +32,14 @@
 #menuToggle input
 {
   display: block;
-  width: 40px;
+  width: 80px;
   height: 32px;
   position: absolute;
   top: -7px;
   left: -5px;
-  
   cursor: pointer;
-  
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
-  
   -webkit-touch-callout: none;
 }
 
@@ -104,9 +99,9 @@
 #menu
 {
   position: absolute;
-  width: 20%;
-  margin: -100px 0 0 -50px;
-  padding: 34px;
+  width: 31%;
+  margin: -98px 5px 6px -46px;
+  padding: 42px;
   padding-top: 124px;
   border-radius: 5px;
   border-color: #232323;
