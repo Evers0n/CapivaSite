@@ -23,7 +23,13 @@
 body{
     box-sizing: border-box;
     background-color: var( --cor-primaria);
-    color: var(--cor-secundaria);
+    color: #ffffff;
+    font-weight: bolder;
+    background-image: url(../assets/imgbackground.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 .back-video{
@@ -50,7 +56,7 @@ body{
 
 
 .background_image div{
-    background-image: url(../assets/backgroundImg.jpg);
+    background-image: url(../assets/imgbackground.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
