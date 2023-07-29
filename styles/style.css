@@ -17,7 +17,7 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 body{
@@ -272,5 +272,8 @@ img.apresentacao__imagem {}
     animation-timing-function: ease-in; 
 }
 
+.logo{
+    justify-self: unset;
+}
 
 
